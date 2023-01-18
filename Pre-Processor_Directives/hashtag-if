@@ -1,0 +1,16 @@
+#if
+
+#if is a preprocessor directive in C and C++ that is used to conditionally compile code based on the evaluation of a specific expression. 
+The directive takes the form of #if expression, where expression is any valid C or C++ expression that can be evaluated to either true or false.
+
+When the preprocessor encounters an #if directive, it evaluates the expression following the directive. 
+If the expression evaluates to true, the preprocessor processes the code that follows the directive, up until the corresponding #endif directive. 
+If the expression evaluates to false, the preprocessor skips over the code between the #if and #endif directives and does not include it in the compiled program.
+
+For example, the following code block will only be included in the compiled program if the constant DEBUG is defined and the variable x is greater than 5:
+
+#if defined(DEBUG) && x > 5
+    printf("Debugging information");
+#endif
+
+It's important to match every #if with a corresponding #endif to avoid unexpected behavior.

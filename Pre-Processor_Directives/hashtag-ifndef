@@ -1,0 +1,20 @@
+#ifndef is a preprocessor directive in C and C++ that is used to check whether a particular header file has been included before in the current source file or not.
+It is typically used at the beginning of header files to prevent multiple inclusion of the same header file.
+
+The #ifndef directive is used in conjunction with the #define directive. 
+The #define directive is used to define a preprocessor macro, typically with the same name as the header file. 
+The #ifndef directive checks whether the macro has been defined already, and if not, the code between the #ifndef and the following #endif is processed.
+
+For example, in a header file named "myheader.h", you might have the following code at the beginning of the file:
+
+
+#ifndef MYHEADER_H
+#define MYHEADER_H
+
+// header file contents here
+
+#endif
+
+This way, if the "myheader.h" file is included multiple times in the same source file, the code between the #ifndef and the #endif will only be processed once.
+
+This is also known as header guards, it's a common practice to protect header files from multiple inclusion

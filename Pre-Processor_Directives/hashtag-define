@@ -1,0 +1,5 @@
+#define is a preprocessor directive in C and C++ that is used to define a constant or macro. 
+It is typically used at the beginning of a program or in a header file. 
+For example, #define PI 3.14 would define the constant PI with a value of 3.14. 
+This constant can then be used throughout the program in place of the actual value. 
+When the program is compiled, the preprocessor replaces all instances of PI with 3.14

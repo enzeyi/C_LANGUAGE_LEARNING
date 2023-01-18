@@ -1,0 +1,13 @@
+#endif is a preprocessor directive in C and C++ that is used to indicate the end of a block of code that is conditionally compiled using the #if, #ifdef, or #ifndef preprocessor directives.
+
+When the preprocessor encounters an #if, #ifdef, or #ifndef directive, it evaluates the condition following the directive. 
+If the condition is true, the preprocessor processes the code that follows the directive, up until the corresponding #endif directive. 
+If the condition is false, the preprocessor skips over the code between the #if and #endif directives and does not include it in the compiled program.
+
+For example, the following code block will only be included in the compiled program if the constant DEBUG is defined:
+
+#ifdef DEBUG
+    printf("Debugging information");
+#endif
+
+It's important to match every #if or #ifdef or #ifndef with a corresponding #endif to avoid unexpected behavior

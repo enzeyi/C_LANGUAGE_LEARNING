@@ -1,0 +1,17 @@
+In C, a variable pointer is a special type of pointer that holds the memory address of a variable. 
+The basic syntax for declaring a variable pointer is to add an asterisk (*) before the variable name.
+
+check on this file [declaring_variable_pointer.c] to see how you can declare a variable pointer to an int variable
+
+You can also declare a variable pointer at the time of definition. Check this file [declaring_a_variable_pointer_at_time_of_definition.c]
+
+Once a variable pointer is initialized, you can use it to access the value stored in the variable it points to. 
+For example, you can use the dereference operator (*) to access the value of the variable x through the pointer ptr.Check file [using_the_deference_operator_to_access_value_of_variable.c]
+
+You can also use pointer arithmetic to access other memory locations. Check [using_a_pointer_arithmetic_to_access_other_memory_locations.c]
+
+Pointers can be very powerful and useful in C, but they must be used carefully. You should always ensure that a pointer is properly initialized and that it points to a valid memory location before dereferencing it. 
+If a pointer is not initialized or points to an invalid location, it can cause a segmentation fault or other serious errors in your program.
+
+Therefore, it's important to understand how pointers work and how to use them correctly in your C programs.
+

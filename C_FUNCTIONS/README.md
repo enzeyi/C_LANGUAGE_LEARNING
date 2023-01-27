@@ -12,5 +12,5 @@ Function definition: This is the actual implementation of the function, where yo
 
 Function call: This is where the function is invoked and executed by the program. The function call includes the function name and the values passed as arguments.check syntax here.
 
-
+Functions allow you to divide a program into smaller and more manageable pieces, improving code readability and maintainability. Functions also allow you to reuse code, which can save time and reduce the number of bugs in your program
 

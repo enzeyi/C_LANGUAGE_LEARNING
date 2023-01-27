@@ -1,0 +1,6 @@
+In C, an array variable is a variable that can hold multiple values of the same data type. 
+To create an array variable, you need to specify the type of data the array will hold and the number of elements the array can hold
+
+Check here for the syntax of an array variable [array_variable_syntax.c]
+
+Keep in mind that the size of the array must be a constant expression, so it cannot be a variable

@@ -1,0 +1,15 @@
+In C, an unsigned int is a data type that can hold only non-negative integers. 
+It is an alternative to the int data type, which can hold both positive and negative integers. 
+The main difference between the two is that an unsigned int uses all of its bits to represent the value, while a regular int uses one of its bits to represent the sign (positive or negative).
+
+The range of values that an unsigned int can hold is determined by the number of bits that are used to represent it. 
+On most modern systems, an unsigned int is typically 32 bits, which allows it to hold values between 0 and 4,294,967,295 (2^32-1).
+
+The unsigned int data type is mainly used when you want to ensure that a variable can never hold a negative value. 
+For example, when counting the number of items in a list, an unsigned int is a more appropriate choice than a regular int, as it guarantees that the count cannot be a negative number.
+
+It is also useful when you are working with bitwise operations, as the unsigned int will only have positive values, and it will simplify the logic.
+
+In general, it's a good practice to use unsigned int when you are working with values that should never be negative and use int when working with signed numbers.
+
+It's also important to note that other types like unsigned short, unsigned long, unsigned long long exist, they are similar to unsigned int but they have different sizes, and therefore, they can hold different ranges of values.
